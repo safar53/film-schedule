@@ -1,0 +1,70 @@
+.filmsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filmsHeader {
+  text-align: center;
+  margin-bottom: 30px;
+
+  h1 {
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  p {
+    color: #666;
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}
+
+.errorContainer {
+  text-align: center;
+  padding: 40px;
+  color: #dc3545;
+
+  h2 {
+    margin-bottom: 16px;
+    color: #dc3545;
+  }
+
+  p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+
+.retryButton {
+  padding: 10px 20px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background: #c82333;
+  }
+}
+
+@media (max-width: 768px) {
+  .filmsContainer {
+    padding: 15px;
+  }
+
+  .filmsHeader {
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}

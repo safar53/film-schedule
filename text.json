@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Cinema Salon Film Schedule",
+    "subtitle": "Browse and search through our film schedule"
+  },
+  "error": {
+    "title": "Error",
+    "retry": "Retry"
+  },
+  "loading": {
+    "text": "Loading films..."
+  },
+  "empty": {
+    "text": "No films found"
+  },
+  "table": {
+    "headers": {
+      "title": "Title",
+      "genre": "Genre",
+      "startTime": "Start Time",
+      "duration": "Duration",
+      "actions": "Actions"
+    },
+    "actions": {
+      "viewDetails": "View details"
+    }
+  },
+  "modal": {
+    "details": {
+      "genre": "Genre:",
+      "startTime": "Start Time:",
+      "duration": "Duration:",
+      "director": "Director:",
+      "language": "Language:",
+      "actors": "Actors:",
+      "description": "Description:"
+    }
+  },
+  "search": {
+    "placeholder": "Search films..."
+  },
+  "pagination": {
+    "filmsPerPage": "Films per page:",
+    "previous": "← Previous",
+    "next": "Next →",
+    "options": {
+      "5": "5",
+      "10": "10",
+      "20": "20",
+      "50": "50"
+    }
+  }
+}
